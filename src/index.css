@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://media.istockphoto.com/photos/frame-of-isolated-branch-of-green-leave-on-white-background_-picture-id493386918?b=1&k=20&m=493386918&s=170667a&w=0&h=oqOUXRlhGWaqAxldzCoOOs6EfBEHiAR5sKcWd3xBx9s='); /* Replace with your image URL */
+  /* background-size: cover; */
+  background-attachment: fixed;
+  background-position: center;
+  background-size:cover;
+  background-repeat:inherit;
+  opacity: 0.788;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(19, 212, 19, 0.6); /* Green color with opacity */
+  z-index: -1; /* Keep it behind the content */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
